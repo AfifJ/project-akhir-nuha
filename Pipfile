@@ -1,0 +1,2 @@
+[scripts]
+dev = "streamlit run main.py"

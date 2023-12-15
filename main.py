@@ -95,5 +95,9 @@ class FirebaseAuthenticator:
             navigator.app()
 
 if __name__ == "__main__":
+    # page_title = "DIGITAL BOOKSTORE"
+    # page_icon = "books"
+    # st.set_page_config(page_title=page_title, page_icon=page_icon)
+
     authenticator = FirebaseAuthenticator()
     authenticator.run()

@@ -2,13 +2,7 @@ import streamlit as st
 
 from streamlit_option_menu import option_menu
 
-import about, sampah.book as book, home, main
-
-page_title = "DIGITAL BOOKSTORE"
-page_icon = "books"
-
-
-st.set_page_config(page_title=page_title, page_icon=page_icon)
+import about, book, home, main
 
 
 def app():
